@@ -1,4 +1,4 @@
-# Game of Life on the Onion Omega 2+
+# Conway's Game of Life on the Onion Omega 2+
 
 This is a fun little experiment to run Conway's Game of Life on an [Onion Omega 2+](https://onion.io/omega2/).
 
