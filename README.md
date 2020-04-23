@@ -4,4 +4,10 @@ This is a fun little experiment to run Conway's Game of Life on an [Onion Omega 
 
 It uses the Python code from [KieranP's Game Of Life Implementations](https://github.com/KieranP/Game-Of-Life-Implementations). Check out all of his implementations if you're curious how to get Conway's Game of Life running in a whole range of languages!
 
+To run:
+
+```
+python playtext.py
+```
+
 We've got a video of it in action [over here on Twitter](https://twitter.com/thatpatrickguy/status/1252559479947751431). We did a bit of coding for this together live on the [Dev Diner Twitch stream](https://www.twitch.tv/devdiner).

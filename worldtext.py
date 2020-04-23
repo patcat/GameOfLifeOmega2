@@ -22,6 +22,7 @@ class World:
 
         self.populate_cells()
         self.prepopulate_neighbours()
+        oledExp.driverInit()
         oledExp.setBrightness(255)
         oledExp.setDisplayMode(0)
 
