@@ -47,13 +47,15 @@ class World:
     # Implement first using string concatenation. Then implement any
     # special string builders, and use whatever runs the fastest
     def render(self):
-        oledExp.clear()
+        # oledExp.clear()
         for y in list(range(self.height)):
             for x in list(range(self.width)):
                 oledExp.setCursor(y, x)
                 cell = self.cell_at(x, y)
                 if cell.alive is True:
                     oledExp.writeChar('o')
+                else:
+                    oledExp.writeChar(' ')
 
     def populate_cells(self):
         for y in list(range(self.height)):
